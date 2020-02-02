@@ -8,13 +8,13 @@ Welcome to Modelling Bloom Algae's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
-
+   :caption: Índice:
+   
+   planteamiento.rst
+   bloom_algas.rst
+   configuracion_modelo.rst
 
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

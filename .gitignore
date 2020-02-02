@@ -2,3 +2,5 @@ croco/*
 croco_tools/*
 Datasets/*
 Downloads/*
+.vscode
+doc/_build/**
