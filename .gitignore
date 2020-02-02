@@ -3,5 +3,5 @@ croco_tools/*
 Datasets/*
 Downloads/*
 .vscode
-doc/_build/**
-doc/referencias/**
+_build/**
+_ref

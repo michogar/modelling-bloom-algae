@@ -16,6 +16,7 @@ Diseño
 
 • Busqueda de las diferentes proliferaciones de algas
 • Definición de los parámetros que se relacionan con el bloom de algas definido
+
 .. note::
 
     Una pequeña discusión dónde pongas tus resultados en contexto con resultados de trabajos similares y dónde puedas plantear una hipótesis para testar experimentalmente. Mira plataforma tema para ver formato posters. Tiene que haber un equilibrio entre letra y gráficos. 

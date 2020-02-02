@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SOURCEDIR     = .
+SOURCEDIR     = source
 BUILDDIR      = _build
 
 # Put it first so that "make" without argument is like "make help".
@@ -17,12 +17,9 @@ help:
 livehtml:
 	sphinx-autobuild -b html $(SOURCEDIR) $(BUILDDIR)/html
 
-# Publish into github pages
-gh-pages:
-	rm -rf /tmp/gh-pages
-	cp -r $(BUILDDIR)/html /tmp/gh-pages
-	git checkout gh-pages
-	cd .. && rm -rf * && cp -r /tmp/gh-pages/* . && git add . && git commit -m "Updated gh-pages" && git push && git checkout master
+github:
+	@make html
+	@cp -a _build/html/. ./docs
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
