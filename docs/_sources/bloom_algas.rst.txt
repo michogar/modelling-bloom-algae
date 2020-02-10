@@ -1,5 +1,5 @@
-Proliferaciones de algas en la Ría de Vigo
-###########################################
+Proliferaciones de algas en la Ría de Arousa
+############################################
 
 Los ecosistemas de las Rias gallegas, presentan una serie de características oceanográficas que las hacen en unas de las zonas de producción de moluscos
 más importantes de Europa y del Mundo.
