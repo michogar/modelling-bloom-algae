@@ -76,6 +76,10 @@ croco para generar la batimetría.
 
 `ncrename -v Band1,topo arousa.nc arousa_topo.nc`
 
+.. warning::
+    La estructura de directorios que aparece en la documentación da errores con las rutas relativas. A tener en cuenta que hay que modificar en los archivos
+    `start.m` y en `jobcomp` estas rutas.
+
 Generación de las condiciones climáticas
 ****************************************
 
