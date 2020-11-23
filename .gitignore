@@ -6,3 +6,4 @@ Downloads/*
 _build/**
 _ref
 jobcomp.log
+CONFIGS/**/CROCO_FILES/*.nc

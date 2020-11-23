@@ -48,6 +48,10 @@ Los parámetros para la zona de estudio en CROCO serán:
     #  elif defined  RIA_AROUSA_HR
         parameter (LLm0=179,   MMm0=241,  N=32)   ! RIA_AROUSA_HR
 
+`LLm0` es el número de puntos en la dirección X
+`MMm0` es el número de puntos en la dirección y
+`N` es el número de niveles de profundidad
+
 ``crocotools_param.m``::
 
     CROCO_title  = 'Ria de Arousa Model';
@@ -63,6 +67,14 @@ Los parámetros para la zona de estudio en CROCO serán:
     % Grid resolution [degree]	% Grid resolution [degree]
     %	%
 
+Para la batimetría de la Ría de Arousa se han descargado los datos de la base de datos de EMODNet. Los datos han sido recortados con QGIS 
+
+`gdal_translate -projwin -9.210812319250916 42.75870563101125 -8.591626925992497 42.10948512539328 -of GTiff NETCDF:"/home/michogarcia/croco-ocean/croco_tools/EMODNet/F3_2018.dtm":DEPTH /tmp/processing_oxs7us/4816b12287d2433b945baf17efce3843/OUTPUT.tif`
+
+QGIS ha generado el netcdf usando `Band1` como nombre de la variable. Con `ncrename` modificamos el nombre de esa variable a `topo` que es el que necesita
+croco para generar la batimetría.
+
+`ncrename -v Band1,topo arousa.nc arousa_topo.nc`
 
 Generación de las condiciones climáticas
 ****************************************
