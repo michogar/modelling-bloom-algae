@@ -1,9 +1,10 @@
-croco/*
-croco_tools/*
+croco/croco/*
+croco/croco_tools/*
 Datasets/*
 Downloads/*
 .vscode
 _build/**
 _ref
 jobcomp.log
-CONFIGS/**/CROCO_FILES/*.nc
+croco/CONFIGS/**/CROCO_FILES/*.nc
+data/*

@@ -76,6 +76,13 @@ croco para generar la batimetría.
 
 `ncrename -v Band1,topo arousa.nc arousa_topo.nc`
 
+Deberemos configurar CROCO para que utilice los datos de batimetría que hemos creado. Para ello modificamos el script `crocotools_param.m` en la línea 196
+
+```
+% topofile = [DATADIR,'Topo/etopo2.nc'];
+topofile = [DATADIR,'EMODNet/arousa_topo.nc'];
+```
+
 .. warning::
     La estructura de directorios que aparece en la documentación da errores con las rutas relativas. A tener en cuenta que hay que modificar en los archivos
     `start.m` y en `jobcomp` estas rutas.
