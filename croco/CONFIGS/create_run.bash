@@ -18,7 +18,7 @@ MY_CONFIG_PATH=${CROCO_DIR}'/CONFIGS'
 #
 # Name of the configuration directory defined by the user
 #
-MY_CONFIG_NAME='Run_RIAAROUSA_LR'
+MY_CONFIG_NAME='Run_RIAAROUSA_HR'
 #
 #
 # END USER SECTION
