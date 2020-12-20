@@ -7,4 +7,9 @@ _build/**
 _ref
 jobcomp.log
 croco/CONFIGS/**/CROCO_FILES/*.nc
+croco/CONFIGS/**/CROCO_FILES/*.nc.*
 data/*
+croco/CONFIGS/**/Compile/*
+croco/CONFIGS/**/coastline_l*
+croco/CONFIGS/**/croco
+croco/CONFIGS/**/croco.log
