@@ -63,8 +63,8 @@
                       /* Non-hydrostatic option */
 # undef  NBQ
                       /* Nesting */
-# undef  AGRIF
-# undef  AGRIF_2WAY
+# define  AGRIF
+# define  AGRIF_2WAY
                       /* OA and OW Coupling via OASIS (MPI) */
 # undef  OA_COUPLING
 # undef  OW_COUPLING
