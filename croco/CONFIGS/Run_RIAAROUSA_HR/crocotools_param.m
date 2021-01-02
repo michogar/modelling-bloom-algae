@@ -60,7 +60,7 @@ latmin = 42;   % Minimum latitude  [degree north]
 %
 % Grid resolution [degree]
 %
-dl = 1/32;
+dl = 1/60;
 %
 % Number of vertical Levels (! should be the same in param.h !)
 %
@@ -82,7 +82,7 @@ topo_smooth =  1; % 1: old ; 2: new filter (better but slower)
 % rule of thumb: dl=1, hmin=300, dl=1/4, hmin=150, ...)
 % This affect the filtering since it works on grad(h)/h.
 %
-hmin = 20;
+hmin = 10;
 %
 % Maximum depth at the shore [m] (to prevent the generation
 % of too big walls along the coast)

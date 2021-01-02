@@ -56,7 +56,7 @@
 # define RIA_AROUSA_HR
                       /* Parallelization */
 # undef  OPENMP
-# undef  MPI
+# define  MPI
 # undef  MPI_NOLAND
                       /* I/O server */
 # undef  XIOS

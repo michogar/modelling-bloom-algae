@@ -185,7 +185,7 @@
 #  elif defined SEINE 
       parameter (LLm0=411,  MMm0=181,  N=20)   ! SEINE 
 #  elif defined RIA_AROUSA_HR 
-      parameter (LLm0=63,  MMm0=43,  N=32)   ! RIA_AROUSA_HR  
+      parameter (LLm0=119,  MMm0=81,  N=32)   ! RIA_AROUSA_HR
 #  else
       parameter (LLm0=94,   MMm0=81,   N=40)
 #  endif
